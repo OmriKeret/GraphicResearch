@@ -16,7 +16,7 @@ public class PianoKeyScript : MonoBehaviour, eventCreator {
 		renderer = this.GetComponent<Renderer> ();
 		originalColor = renderer.material.color;
 		eventManager = GameObject.Find ("GameEventManager").GetComponent<gameEventManager> ();
-		eventManager.registerEvent (new EventModel {eventName = EventName.clickedKey});
+		eventManager.registerEvent (new EventModel {eventName = EventName.clickedKey, registerObject = this});
 	}
 
 	// Declare the delegate (if using non-generic pattern). 
@@ -52,6 +52,7 @@ public class PianoKeyScript : MonoBehaviour, eventCreator {
 		LeanTween.color (gameObject, Color.red, 0.3f).setOnComplete(()=> {
 			LeanTween.color (gameObject, originalColor, 0.3f);
 		});
+		RaiseClickedKeyEvent ();
 		GetComponent<AudioSource>().pitch = Mathf.Pow (2f, semitone_offset/12.0f);
 		GetComponent<AudioSource>().Play ();
 	}

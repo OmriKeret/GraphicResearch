@@ -58,6 +58,7 @@ public class songLearn : MonoBehaviour, eventCreator {
 	}
 
 	public void handleClickedKeyEvent(EventModel model) {
+		Debug.Log (" I got the click event");
 		var key = model.keyModel;
 		// If there is no song.
 		if (song == null) {
@@ -66,6 +67,7 @@ public class songLearn : MonoBehaviour, eventCreator {
 
 		if (song [currentIndex].Equals (key)) {
 
+			Debug.Log("correct");
 			// Clicked the correct key.
 			currentIndex++;
 

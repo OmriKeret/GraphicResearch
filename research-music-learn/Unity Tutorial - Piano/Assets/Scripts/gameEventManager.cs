@@ -32,7 +32,7 @@ public class gameEventManager : MonoBehaviour {
 	public void subsriceEvent(EventModel model) {
 		// link event handlers.
 		List<eventCreator> ls;
-		
+		var x = eventDictionary [EventName.clickedKey];
 		// If event exists we subscribe to its event
 		if (eventDictionary.TryGetValue (model.eventName, out ls)) {
 			foreach (eventCreator creator in ls) {

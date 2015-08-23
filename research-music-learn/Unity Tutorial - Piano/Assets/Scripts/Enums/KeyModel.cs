@@ -13,7 +13,7 @@ public class KeyModel {
 				set;
 		}
 
-	public bool equals(KeyModel obj) {
+	public bool Equals(KeyModel obj) {
 		return this.keyName == obj.keyName && this.level == obj.level;
 	}
 
