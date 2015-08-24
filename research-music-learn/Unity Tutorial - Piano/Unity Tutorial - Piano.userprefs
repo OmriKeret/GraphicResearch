@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/songLearn.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PianoKeyScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/songLearn.cs" Line="65" Column="12" />
-      <File FileName="Assets/Scripts/gameEventManager.cs" Line="39" Column="1" />
-      <File FileName="Assets/PianoKeyScript.cs" Line="36" Column="1" />
-      <File FileName="Assets/Scripts/Enums/KeyModel.cs" Line="17" Column="1" />
-      <File FileName="Assets/Scripts/learnerLogic.cs" Line="12" Column="24" />
-      <File FileName="Assets/Scripts/EventModel/EventName.cs" Line="5" Column="22" />
-      <File FileName="Assets/Scripts/EventModel/EventModel.cs" Line="17" Column="26" />
+      <File FileName="Assets/Scripts/songLearn.cs" Line="11" Column="17" />
+      <File FileName="Assets/Scripts/gameEventManager.cs" Line="32" Column="47" />
+      <File FileName="Assets/PianoKeyScript.cs" Line="40" Column="48" />
+      <File FileName="Assets/Scripts/Enums/KeyModel.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/learnerLogic.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EventModel/EventName.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EventModel/EventModel.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,8 +22,8 @@
             <Node name="Scripts" expanded="True">
               <Node name="Enums" expanded="True" />
               <Node name="EventModel" expanded="True" />
-              <Node name="songLearn.cs" selected="True" />
             </Node>
+            <Node name="PianoKeyScript.cs" selected="True" />
           </Node>
           <Node name="Assembly-UnityScript" expanded="True" />
         </State>
@@ -32,9 +32,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/omrikeret/Documents/piano/GraphicResearch/research-music-learn/Unity Tutorial - Piano/Assets/Scripts/songLearn.cs" line="61" />
       <Breakpoint file="/Users/omrikeret/Documents/piano/GraphicResearch/research-music-learn/Unity Tutorial - Piano/Assets/Scripts/Enums/KeyModel.cs" line="17" />
-      <Breakpoint file="/Users/omrikeret/Documents/piano/GraphicResearch/research-music-learn/Unity Tutorial - Piano/Assets/Scripts/songLearn.cs" line="68" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
