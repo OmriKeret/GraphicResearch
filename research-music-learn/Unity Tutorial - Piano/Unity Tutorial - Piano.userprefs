@@ -1,12 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/songLearn.cs">
     <Files>
-      <File FileName="Assets/Scripts/songLearn.cs" Line="61" Column="21" />
-      <File FileName="Assets/Scripts/gameEventManager.cs" Line="20" Column="58" />
-      <File FileName="Assets/PianoKeyScript.cs" Line="8" Column="19" />
-      <File FileName="Assets/Scripts/Enums/KeyModel.cs" Line="11" Column="18" />
-      <File FileName="Assets/Scripts/learnerLogic.cs" Line="18" Column="37" />
+      <File FileName="Assets/Scripts/songLearn.cs" Line="65" Column="12" />
+      <File FileName="Assets/Scripts/gameEventManager.cs" Line="39" Column="1" />
+      <File FileName="Assets/PianoKeyScript.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/Enums/KeyModel.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/learnerLogic.cs" Line="12" Column="24" />
+      <File FileName="Assets/Scripts/EventModel/EventName.cs" Line="5" Column="22" />
+      <File FileName="Assets/Scripts/EventModel/EventModel.cs" Line="17" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +31,11 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/omrikeret/Documents/piano/GraphicResearch/research-music-learn/Unity Tutorial - Piano/Assets/Scripts/songLearn.cs" line="61" />
+      <Breakpoint file="/Users/omrikeret/Documents/piano/GraphicResearch/research-music-learn/Unity Tutorial - Piano/Assets/Scripts/Enums/KeyModel.cs" line="17" />
+      <Breakpoint file="/Users/omrikeret/Documents/piano/GraphicResearch/research-music-learn/Unity Tutorial - Piano/Assets/Scripts/songLearn.cs" line="68" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
