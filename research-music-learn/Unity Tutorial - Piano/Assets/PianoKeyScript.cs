@@ -56,4 +56,24 @@ public class PianoKeyScript : MonoBehaviour, eventCreator {
 		GetComponent<AudioSource>().pitch = Mathf.Pow (2f, semitone_offset/12.0f);
 		GetComponent<AudioSource>().Play ();
 	}
+
+
+    public void PlayNoteToturial()
+    {
+        LeanTween.color(gameObject, Color.green, 0.3f).setOnComplete(() =>
+        {
+            LeanTween.color(gameObject, originalColor, 0.3f);
+        });
+        GetComponent<AudioSource>().pitch = Mathf.Pow(2f, semitone_offset / 12.0f);
+        GetComponent<AudioSource>().Play();
+    }
+
+
+    public void ChangeColorYellow()
+    {
+        LeanTween.color(gameObject, Color.yellow, 0.3f).setOnComplete(() =>
+        {
+            LeanTween.color(gameObject, originalColor, 0.3f);
+        });
+    }
 }

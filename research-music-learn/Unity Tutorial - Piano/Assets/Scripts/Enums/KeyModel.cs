@@ -13,6 +13,12 @@ public class KeyModel {
 				set;
 		}
 
+    public GameObject gameObj
+    {
+			get;
+			set;
+    }
+
 	public bool Equals(KeyModel obj) {
 		return this.keyName == obj.keyName && this.level == obj.level;
 	}

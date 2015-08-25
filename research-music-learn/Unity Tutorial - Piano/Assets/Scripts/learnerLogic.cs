@@ -23,14 +23,18 @@ public class learnerLogic : MonoBehaviour {
 	
 	}
 
+    public void chooseSong(string songName)
+    {
+        songLearner.SetSong(songs[songName]);
+    }
 	void initilizeSongs ()
 	{
 		songs = new Dictionary<string,KeyModel[]>();
 		songs.Add ("spider", new KeyModel[] {
-			new KeyModel{keyName = KeyName.A,level = 0 },
-			new KeyModel{keyName = KeyName.B,level = 0 },
-			new KeyModel{keyName = KeyName.C,level = 0 },
-			new KeyModel{keyName = KeyName.D,level = 0 }
+			new KeyModel{keyName = KeyName.A, level = 0 , gameObj = GameObject.Find("Piano/level1/A")},
+			new KeyModel{keyName = KeyName.B, level = 0 , gameObj = GameObject.Find("Piano/level1/B") },
+			new KeyModel{keyName = KeyName.C, level = 0 , gameObj = GameObject.Find("Piano/level1/C") },
+			new KeyModel{keyName = KeyName.D, level = 0 , gameObj = GameObject.Find("Piano/level1/D") }
 		});
 	}
 }
